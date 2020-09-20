@@ -17,6 +17,9 @@ export default function Navigation() {
   useStyles(s);
   return (
     <div className={s.root} role="navigation">
+      <Link className={s.link} to="/speed-counter">
+        Speed counter
+      </Link>
       <Link className={s.link} to="/about">
         About
       </Link>

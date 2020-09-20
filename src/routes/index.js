@@ -32,6 +32,11 @@ const routes = {
       load: () => import(/* webpackChunkName: 'register' */ './register'),
     },
     {
+      path: '/speed-counter',
+      load: () =>
+        import(/* webpackChunkName: 'speed-counter' */ './speed-counter'),
+    },
+    {
       path: '/about',
       load: () => import(/* webpackChunkName: 'about' */ './about'),
     },
